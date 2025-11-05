@@ -22,7 +22,7 @@ const Sidebar = ({ isOpen, onClose }) => {
     { name: 'Citation Generator', href: '/citations', icon: Quote },
     { name: 'Plagiarism Check', href: '/plagiarism', icon: Shield },
     { name: 'Grammar Check', href: '/grammar', icon: Edit3 },
-    { name: 'Report Generator', href: '/reports', icon: FileDown },
+    { name: 'Manual Report Generator', href: '/manual-report', icon: FileDown },
   ];
 
   return (

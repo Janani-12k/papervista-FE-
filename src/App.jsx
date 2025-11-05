@@ -8,7 +8,7 @@ import PaperAnalysis from './pages/PaperAnalysis';
 import CitationGenerator from './pages/CitationGenerator';
 import PlagiarismCheck from './pages/PlagiarismCheck';
 import GrammarCheck from './pages/GrammarCheck';
-import ReportGenerator from './pages/ReportGenerator';
+import ManualReportGenerator from './pages/ManualReportGenerator.jsx';
 import ProjectTemplates from './pages/ProjectTemplates';
 import LoginPage from './pages/LoginPage.jsx';
 import LogoutPage from './pages/LogoutPage.jsx';
@@ -34,7 +34,7 @@ function App() {
                 <Route path="/citations" element={<CitationGenerator />} />
                 <Route path="/plagiarism" element={<PlagiarismCheck />} />
                 <Route path="/grammar" element={<GrammarCheck />} />
-                <Route path="/reports" element={<ReportGenerator />} />
+                <Route path="/manual-report" element={<ManualReportGenerator />} />
                 <Route path="/templates" element={<ProjectTemplates />} />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/logout" element={<LogoutPage />} />
